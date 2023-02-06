@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--ImageView  in which image will be set-->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/_320sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_image_24"
+        android:layout_height="@dimen/_400sdp"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/capture_btn"
+        android:layout_width="match_parent"
+        android:text="Capture Image"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
